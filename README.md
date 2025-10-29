@@ -1,0 +1,7 @@
+Program di atas merupakan kalkulator sederhana berbasis teks yang dibuat menggunakan bahasa pemrograman Dart. Program ini memanfaatkan library dart:io agar dapat menerima input langsung dari pengguna melalui terminal. Proses eksekusi dimulai dari fungsi main(), yang berfungsi sebagai titik awal jalannya program.
+
+Pertama, program menampilkan pesan pembuka dan meminta pengguna memasukkan angka pertama. Input tersebut dibaca dalam bentuk string, lalu dikonversi menjadi tipe data double agar dapat digunakan dalam operasi matematika. Setelah itu, pengguna diminta memasukkan operator aritmatika (+, -, *, atau /), kemudian memasukkan angka kedua yang juga dikonversi menjadi double.
+
+Selanjutnya, program menggunakan struktur kendali switch untuk menentukan jenis operasi berdasarkan operator yang diinput. Jika pengguna memilih tanda tambah, pengurangan, perkalian, atau pembagian, maka perhitungan dilakukan sesuai dengan operator tersebut. Pada kasus pembagian, program terlebih dahulu memeriksa apakah angka kedua bernilai nol untuk menghindari kesalahan perhitungan, dan jika nol maka program menampilkan pesan error dan menghentikan eksekusi. Jika operator yang dimasukkan tidak dikenali, program juga memberikan pesan kesalahan.
+
+Terakhir, hasil dari perhitungan ditampilkan ke layar dengan perintah print('Result: $result');. Dengan demikian, program ini menggambarkan cara sederhana menggunakan input-output di Dart, melakukan perhitungan aritmatika dasar, serta menangani kesalahan seperti pembagian dengan nol atau operator yang tidak valid.
